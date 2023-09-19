@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-sacle=1.0" />
+  <title>Sistema Solar</title>
+</head>
+
+<body>
+  <header>
+    <h1>Quiz sobre o Sistema Solar</h1>
+  </header>
+
+  <main>
+    <section id="pergunta1">
+      <h2>Pergunta 1:</h2>
+      <form>
+        <p>Quantos planetas existem no Sistema Solar?</p>
+        <input type="radio" id="num_planetas_7" name="num_planetas" value="7">
+        <label for="html">7</label>
+
+        <input type="radio" id="num_planetas_8" name="num_planetas" value="8">
+        <label for="css">8</label>
+
+        <input type="radio" id="num_planetas_9" name="num_planetas" value="9">
+        <label for="num_planetas_9">9</label>
+
+        <input type="submit" text="Enviar" />
+      </form>
+    </section>
+
+    <section id="pergunta2">
+      <h2>Pergunta 2:</h2>
+      <p>Quais desses planetas são gasosos? Selecione todas as opções corretas.</p>
+      <form>
+        <input type="checkbox" id="marte" name="marte" value="Marte">
+        <label for="marte">Marte</label>
+
+        <input type="checkbox" id="jupiter" name="jupiter" value="Júpiter">
+        <label for="jupiter">Júpiter</label>
+
+        <input type="checkbox" id="venus" name="venus" value="Vênus">
+        <label for="venus">Vênus</label>
+
+        <input type="submit" text="Enviar" />
+      </form>
+    </section>
+
+    <section id="pergunta3">
+      <h2>Pergunta 3:</h2>
+      <p>Qual a maior lua de Saturno?</p>
+      <form>
+        <select name="luas_saturno" id="luas_saturno">
+          <option value="europa">Europa</option>
+          <option value="tita">Titã</option>
+          <option value="ganimedes">Ganimedes</option>
+        </select>
+
+        <input type="submit" text="Enviar" />
+      </form>
+    </section>
+
+    <section id="pergunta4">
+      <h2>Pergunta 4:</h2>
+      <p>Em que ano a sonda Voyage 2 foi lançada para explorar os planetas do Sistema Solar?</p>
+      <form>
+        <div class="slidecontainer">
+          <input type="range" min="1900" max="2023" value="1950" class="slider" id="ano" name="ano">
+          <span id="valor">1950</span>
+          <input type="submit" text="Enviar" />
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Sistema Solar</p>
+  </footer>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
